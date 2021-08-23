@@ -1,3 +1,5 @@
+scoreleftw = 0;
+
 leftwristX="";
 leftwristy="";
 
@@ -53,7 +55,7 @@ circle(leftwristx,leftwristy,20);
 inNumberleftwristy = Number(leftwristy);
 removedec = floor(inNumberleftwristy);
 vol = removede/500;
-document.getElementById("Volume =" + vol);
+console.log("Volume =" + vol);
 song.setVolume(vol);
 }
 }
